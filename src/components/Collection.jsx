@@ -13,10 +13,12 @@ const Collection = () => {
   };
 
   return (
-    <section className="collection">
+    <section className="collection" id="collection">
       <div className="collection-header">
         <h2>OUR COLLECTION</h2>
-        <p>Explore our range of premium bottle silhouettes with transparent wholesale pricing.</p>
+        <p>
+          Explore our range of premium bottle silhouettes with transparent wholesale pricing.
+        </p>
       </div>
 
       {/* ✅ Premium Bottles */}
@@ -27,9 +29,9 @@ const Collection = () => {
             <img
               key={i}
               className="premium-img"
-              src={`src/assets/${img}`}
+              src={`/${img}`}   // ✅ public folder path
               alt={`Premium Bottle ${i+1}`}
-              onClick={() => openImage(`src/assets/${img}`)}
+              onClick={() => openImage(`/${img}`)}
             />
           ))}
         </div>
@@ -44,9 +46,9 @@ const Collection = () => {
             <img
               key={i}
               className="square-img"
-              src={`src/assets/${img}`}
+              src={`/${img}`}   // ✅ public folder path
               alt={`Square Bottle ${i+1}`}
-              onClick={() => openImage(`src/assets/${img}`)}
+              onClick={() => openImage(`/${img}`)}
             />
           ))}
         </div>

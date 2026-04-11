@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       
       <div className="contact-banner">
         <h2>Planning an event? Get customized bottles delivered to your doorstep.</h2>
@@ -57,7 +57,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="map-link"
           >
-            <img src="src/assets/map.png" alt="Map Location" className="map-img" />
+            <img src="/map.png" alt="Map Location" className="map-img" />
           </a>
         </div>
 

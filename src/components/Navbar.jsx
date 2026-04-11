@@ -12,16 +12,16 @@ const Navbar = () => {
       {/* Right side menu icon (only visible when closed) */}
       {!isOpen && (
         <div className="menu-btn" onClick={() => setIsOpen(true)}>
-          <img src="src/assets/menu.png" alt="Menu" />
+          <img src="/menu.png" alt="Menu" />
         </div>
       )}
 
       {/* Dropdown links */}
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
-        <li><a href="#heritage">OUR HERITAGE</a></li>
-        <li><a href="#collections">COLLECTIONS</a></li>
-        <li><a href="#bespoke">BESPOKE</a></li>
-        <li><a href="#inquiry">INQUIRY</a></li>
+        <li><a href="#hero" onClick={() => setIsOpen(false)}>OUR HERITAGE</a></li>
+        <li><a href="#collection" onClick={() => setIsOpen(false)}>COLLECTIONS</a></li>
+        <li><a href="#price" onClick={() => setIsOpen(false)}>PRICE</a></li>
+        <li><a href="#contact" onClick={() => setIsOpen(false)}>INQUIRY</a></li>
         {isOpen && (
           <li className="close-btn" onClick={() => setIsOpen(false)}>
             ✖ Close
@@ -31,7 +31,13 @@ const Navbar = () => {
 
       {/* Shop Now button (hidden in mobile view) */}
       <div className="navbar-btn">
-        <button>SHOP NOW</button>
+        <a 
+          href="https://wa.me/916202352446" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <button>SHOP NOW</button>
+        </a>
       </div>
     </nav>
   );
