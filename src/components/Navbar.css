@@ -1,0 +1,108 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between; /* logo left, menu right */
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);          
+  -webkit-backdrop-filter: blur(12px);   
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: var(--accent);
+}
+
+.navbar-btn button {
+  background: #c3a02d;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  transition: background 0.3s ease;
+}
+
+.navbar-btn button:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* ✅ Responsive Design */
+.menu-btn {
+  display: none;
+  cursor: pointer;
+  margin-left: auto; /* 👈 push menu icon to right */
+}
+
+.menu-btn img {
+  width: 28px;
+  height: 28px;
+}
+
+.close-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c00;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+    position: absolute;
+    right: 40px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-height: 0;       /* 👈 hidden initially */
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .navbar-links.open {
+    max-height: 300px;   /* 👈 expand smoothly */
+    opacity: 1;
+  }
+
+  .navbar-btn {
+    display: none; /* 👈 hide Shop Now button in mobile */
+  }
+}

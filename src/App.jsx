@@ -1,0 +1,29 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Billboard from "./components/Billboard";
+import Collection from "./components/Collection";
+import Price from "./components/Price";
+import Contact from "./components/Contact";
+
+const App = () => {
+  return (
+    <div>
+      {/* ✅ Navbar */}
+      <Navbar />
+
+      {/* ✅ Hero Section */}
+      <Hero />
+
+      {/* ✅ Billboard Section */}
+      <Billboard />
+
+      {/* ✅ Our Collection Section */}
+      <Collection />
+      <Price />
+      <Contact />
+    </div>
+  );
+};
+
+export default App;
