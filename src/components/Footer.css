@@ -1,0 +1,65 @@
+.footer {
+  background-color: #dddcdc;
+  color: #000000;
+  text-align: center;
+  padding: 5px 0;   /* ✅ compact padding */
+}
+
+.footer-content h3 {
+  margin-bottom: 5px;   /* ✅ spacing kam */
+  font-size: 18px;      /* ✅ thoda chhota font */
+}
+
+.footer-content p,
+.cust {
+  font-size: 14px;      /* ✅ normal text size */
+  margin: 3px 0;
+}
+
+.footer-icons {
+  margin: 8px 0;        /* ✅ icons ke upar niche gap kam */
+}
+
+.footer-icon {
+  width: 24px;          /* ✅ icon size chhota */
+  height: 24px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  font-size: 12px;      /* ✅ copyright text chhota */
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+/* ✅ Mobile view (≤480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 3px 0;     /* aur compact */
+  }
+
+  .footer-content h3 {
+    font-size: 16px;    /* heading aur chhoti */
+  }
+
+  .footer-content p,
+  .cust {
+    font-size: 12px;    /* text aur chhota */
+  }
+
+  .footer-icon {
+    width: 28px;        /* icons aur chhote */
+    height: 28px;
+    margin: 0 10px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;    /* copyright aur chhota */
+  }
+}

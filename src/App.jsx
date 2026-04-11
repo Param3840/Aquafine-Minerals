@@ -5,6 +5,7 @@ import Billboard from "./components/Billboard";
 import Collection from "./components/Collection";
 import Price from "./components/Price";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Collection />
       <Price />
       <Contact />
+      <Footer />
     </div>
   );
 };
