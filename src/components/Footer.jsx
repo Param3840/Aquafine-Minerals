@@ -18,9 +18,11 @@ const Footer = () => {
             <img src="/instagram.png" alt="Instagram" className="footer-icon" />
           </a>
 
-          {/* Gmail */}
           <a href="mailto:aquafineminerals2026@gmail.com">
             <img src="/gmail.png" alt="Gmail" className="footer-icon" />
+          </a>
+          <a href="https://www.facebook.com/share/17YQ279Ztr/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+            <img src="/facebook.png" alt="Facebook" className="footer-icon" />
           </a>
         </div>
       </div>

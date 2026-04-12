@@ -13,7 +13,7 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
           <a 
-            href="https://wa.me/916202352446" 
+            href="https://wa.me/918271748494" 
             target="_blank" 
             rel="noopener noreferrer"
           >

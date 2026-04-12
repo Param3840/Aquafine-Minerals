@@ -30,9 +30,9 @@ const Contact = () => {
     <section className="contact-section" id="contact">
       
       <div className="contact-banner">
-        <h2>Planning an event? Get customized bottles delivered to your doorstep.</h2>
+        <h2>Planning an event? Get customised bottles delivered to your doorstep.</h2>
        <a 
-  href="https://wa.me/916202352446?text=I'm%20interested%20for%20buying%20bottle" 
+  href="https://wa.me/918271748494?text=I'm%20interested%20for%20buying%20bottle" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="contact-info">
           <h3>Start Your Legacy</h3>
           <p><strong>Address:</strong><br/>Chhota Sasaram, PO - Gajrajgang, PS-Udwant Nagar, District - Bhojpur, Bihar, Pin- 802157</p>
-          <p><strong>Direct Line:</strong><br/>+91 6202352446</p>
+          <p><strong>Direct Line:</strong><br/>+91 8271748494</p>
           <p><strong>General Inquiries:</strong><br/>aquafineminerals2026@gmail.com</p>
 
           {/* ✅ Map image clickable */}

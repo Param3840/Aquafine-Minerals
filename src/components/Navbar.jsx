@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Shop Now button (hidden in mobile view) */}
       <div className="navbar-btn">
         <a 
-          href="https://wa.me/916202352446" 
+          href="https://wa.me/918271748494?text=Hello%20Aquafine%20Minerals%2C%20I%20would%20like%20to%20inquire%20about%20your%20products." 
           target="_blank" 
           rel="noopener noreferrer"
         >
