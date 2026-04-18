@@ -8,8 +8,8 @@ const Price = () => {
     { img: "/1000mlcircle.png", volume: "1000 ML", price: "₹210", pcs: "12 pcs", note: "PREMIUM SHAPE" },
     { img: "/500mlcircle.png", volume: "500 ML", price: "₹240", pcs: "24 pcs", note: "PREMIUM SHAPE" },
     { img: "/1000mlsqr.png", volume: "1000 ML", price: "₹150", pcs: "12 pcs", note: "SQUARE SHAPE" },
-    { img: "/500mlsqr.png", volume: "500 ML", price: "₹200", pcs: "24 pcs", note: "SQUARE SHAPE" },
-    { img: "/200mlsqr.png", volume: "200 ML", price: "₹150", pcs: "24 pcs", note: "SQUARE SHAPE" },
+    { img: "/500mlsqr.png", volume: "500 ML", price: "₹190", pcs: "24 pcs", note: "SQUARE SHAPE" },
+    { img: "/200mlsqr.png", volume: "200 ML", price: "₹130", pcs: "24 pcs", note: "SQUARE SHAPE" },
   ];
 
   const openImage = (src) => setSelectedImage(src);
