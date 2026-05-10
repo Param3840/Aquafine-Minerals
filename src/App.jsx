@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Billboard from "./components/Billboard";
@@ -24,6 +25,7 @@ const App = () => {
       <Price />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 };
