@@ -7,9 +7,9 @@
   justify-content: space-between; /* logo left, menu right */
   align-items: center;
   padding: 20px 40px;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(20px);          
-  -webkit-backdrop-filter: blur(20px);   
+ background: rgba(255, 255, 255, 0.85); /* fallback solid background */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   z-index: 1000;
